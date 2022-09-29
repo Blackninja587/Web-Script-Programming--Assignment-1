@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body {
+    background: linear-gradient(45deg, rgb(124, 158, 195), rgb(204,204,255));
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    padding-left: 20px;
+    margin: 20px;
+}
+
+#header {
+    background-color: rgb(0, 59, 111);
+    padding: 0px 0px;
+    color: white;
+}
+
+#header a{
+    position: relative;
+    bottom: 20px;
+    color: white;
+}
+
+#header nav{
+    height: 60px;
+}
+
+#header ul{
+    text-align: center;
+}
+
+#header ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.logo img{
+    width: 60px;
+}
+
+#banner {
+    padding: 0px;
+    margin: 20px;
+}
+
+.photos {
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.photos img {
+    height: auto;
+    max-width: 500px;
+}
+
+#whoami {
+    padding: 20px;
+    width: 600px;
+    display: inline-block;  
+}
+
+#right-column {
+    float: right;
+    width: 200px;
+}
+
+#ad_space {
+    position: fixed;
+    width: 200px;
+    height: 400px; 
+    background-color: white;
+    border: solid;
+    border-color: rgb(140, 47, 115);
+}
+
+#ad_space h1{
+    color:rgb(140, 47, 115);
+    text-align: center;
+}
+
+#clear {
+    clear: both;
+}
+
+#footer {
+    border: 2px;
+}
+
+/* About Me page */ 
+
+#history {
+    display: inline-block;
+    padding: 0px;
+    max-width: 450px;
+    height: auto;
+}
+
+#history h1{
+    color: cyan;
+}
+
+#music {
+    display: inline-block;
+    padding: 0px;
+    width: 450px;
+}
+
+#music h1{
+    color: cyan;
+}
+
+#art {
+    display: inline-block;
+    padding: 0px;
+    width: 450px;
+}
+
+#art h1{
+    color: cyan;
+}
+
+#hobbies {
+    display: inline-block;
+    padding: 0px;
+    width: 450px;
+}
+
+#hobbies h1{
+    color: cyan;
+}
+
+#work {
+    display: inline-block;
+    padding: 0px;
+    width: 450px;
+}
+
+#work h1{
+    color: cyan;
+}
+
+/* Photography */ 
